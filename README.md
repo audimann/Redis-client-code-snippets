@@ -21,7 +21,7 @@ gem install redis
 The python code **writer.py** and the ruby code **reader.rb** need to be adjusted for your environment:
 - The hostname or IP address to connect to (i.e. where your Redis server is running)
 - The Port number where the Redis server is listening to
-- The password which protects database need to specified
+- The password which protects the database needs to specified
 ```python
 redis_handle = redis.Redis( host='<your_redis_host>', port=<your_redis_port>, password='<your_redis_password>')
 ```
